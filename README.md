@@ -67,6 +67,6 @@ Closely related Structural Flow artifacts include:
 
 ## Citation / DOI
 
-Zenodo DOI: DOI PENDING
+Zenodo DOI: 10.5281/zenodo.20122154
 
 PDF available via DOI link once published.
