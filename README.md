@@ -60,7 +60,7 @@ Start with the main protocol:
 
 Closely related Structural Flow artifacts include:
 
-- *¯\(ツ)/¯ — A Derivation from Non-Guarantee Structural Flow and the Exhaustion of Failure Space*
+- *¯\\(ツ)/¯ — A Derivation from Non-Guarantee Structural Flow and the Exhaustion of Failure Space*
 - *The Chemical Primitive: A Structural Flow Perspective on Why Most Interactions Leave No Trace*
 - *Biology as a Grammar of Chemical Persistence: What Entropy Could Not Finish*
 - *Density as Translation Field Between Coherent Regimes*
