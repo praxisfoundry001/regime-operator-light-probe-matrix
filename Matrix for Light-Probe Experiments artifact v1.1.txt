@@ -1,0 +1,817 @@
+﻿Regime Operator and Confound-Control Matrix for Light-Probe Experiments
+A Technical Appendix to Optical Signatures of Structural Failure Regimes in Immiscible Fluids
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Purpose of the Appendix
+The main experiment proposes a test:
+independently classified immiscible-fluid failure regimes should produce distinguishable optical profile families when light is used as a probe.
+This appendix gives the technical reason those profile families should not be treated as loose descriptions of “messy fluid optics.”
+The five regimes — Dissolution, Shear, Drift, Echo, and Lock — do not merely name five appearances. They name five different ways the local conditions for optical behavior may fail to hold, fit together, remain aligned, settle, or update. If that is right, then each regime should change the local optical situation differently.
+The main artifact states the prediction.
+This appendix sharpens the prediction without replacing the main experiment.
+It asks:
+What changes locally in the medium such that light behaves differently in each regime?
+The answer is stated through a simple admissibility idea:
+light behaves smoothly through a region when its path or wave behavior fits the local conditions well enough to remain carried by that region.
+When the fit fails in different ways, the optical profile should fail in different ways.
+Dissolution should weaken optical readability.
+Shear should fragment optical behavior.
+Drift should misalign optical behavior.
+Echo should repeat optical behavior without stable settlement.
+Lock should make optical behavior depend on prior path.
+This appendix therefore supports the experiment in four ways.
+First, it gives a local operator grammar for the prediction.
+Second, it explains why the five regimes should produce different optical profiles.
+Third, it names ordinary confounds that could imitate each profile.
+Fourth, it states discriminants and falsifiers so the proposed test can lose.
+The appendix does not report laboratory results. It does not derive photon theory, Maxwell’s equations, quantum electrodynamics, full wave optics, full General Relativity, or numerical thresholds. It does not claim that optical data alone classify a regime.
+Its narrower burden is this:
+if a fluid region is classified first, this appendix explains what kind of local optical deformation that classification predicts, what could imitate it, and what would count against it.
+2. Local Optical Admissibility
+The proposed experiment uses light as a probe of a structured medium.
+In ordinary terms, the question is whether the medium lets the light continue smoothly, redirects it, fragments it, destabilizes it, repeats its response, or carries memory of prior conditions.
+To state that question more precisely, this appendix uses a local admissibility relation:
+κ_b · χ(γ, μ_b) ≤ τ_b
+This expression should be read as a prediction grammar, not as a finished optical law.
+It says:
+a candidate optical behavior remains locally admissible when its mismatch from the local best-fit condition stays within the local tolerance budget.
+Or more plainly:
+fit must stay inside tolerance.
+Each term has a practical meaning.
+Symbol
+	Plain meaning
+	Role in the appendix
+	γ
+	candidate optical behavior
+	the path, beam, wavefront, phase progression, or optical response being tested
+	μ_b
+	local best-fit condition
+	the local path, orientation, boundary, or refractive condition the medium most supports
+	χ(γ, μ_b)
+	mismatch
+	how far the candidate optical behavior is from the local best fit
+	κ_b
+	local selectivity
+	how strongly the medium penalizes mismatch
+	τ_b
+	local tolerance budget
+	how much mismatch the region can absorb before smooth optical behavior fails
+	The relation can be read in one sentence:
+optical behavior remains smooth when the cost of mismatch is small enough for the local medium to carry.
+If the mismatch cost stays within the threshold, the light can continue in a locally supported way.
+If the mismatch cost exceeds the threshold, the local medium cannot carry that optical behavior smoothly.
+That does not mean the light disappears. It means the optical profile may change: it may blur, scatter, fragment, drift, recur, or retain prior-path effects depending on what kind of failure is present.
+2.1 Margin Form
+The same idea can be written as a margin:
+m_b(γ) = τ_b − κ_b · χ(γ, μ_b)
+If:
+m_b(γ) ≥ 0
+then the candidate optical behavior remains locally admissible.
+If:
+m_b(γ) < 0
+then the candidate optical behavior exceeds the local tolerance budget.
+Plainly:
+positive margin means the local medium can still carry the optical behavior; negative margin means the local fit has failed.
+This margin form is useful because the five regimes can be described as five different ways the margin becomes unreadable, incompatible, misaligned, recurrent, or history-dependent.
+2.2 Why This Helps
+Without a local admissibility grammar, the prediction could sound too loose:
+* Dissolution blurs.
+* Shear scatters.
+* Drift moves.
+* Echo repeats.
+* Lock sticks.
+That is not sharp enough.
+Many ordinary systems blur, scatter, move, repeat, or relax slowly for reasons unrelated to Structural Flow. The appendix must therefore say which local optical condition each regime changes.
+The local admissibility relation gives that discipline.
+Dissolution weakens the readable local condition.
+Shear makes neighboring local conditions incompatible.
+Drift preserves local condition but breaks registration over time, scale, or position.
+Echo repeats local conditions without stable settlement.
+Lock makes local conditions depend on prior path.
+These are not the same failure.
+They should not produce the same optical profile.
+2.3 What the Relation Does Not Claim
+The relation:
+κ_b · χ(γ, μ_b) ≤ τ_b
+does not claim to be a complete equation of optics.
+It does not supply numerical thresholds.
+It does not replace refractive-index modeling, wave optics, scattering theory, or fluid dynamics.
+It does not derive Maxwell’s equations.
+It does not explain photons.
+It does not claim that every real fluid region will express one pure regime.
+It only gives a disciplined way to state the prediction:
+each failure regime changes the local conditions for optical behavior in a distinct way.
+The next section maps the five regimes onto those distinct local changes.
+3. Five-Regime Operator Map
+The local admissibility relation gives a shared way to describe the five predictions:
+κ_b · χ(γ, μ_b) ≤ τ_b
+The relation asks whether a candidate optical behavior, γ, fits the local condition, μ_b, well enough to remain inside the region’s tolerance budget, τ_b, after mismatch is weighted by local selectivity, κ_b.
+The five regimes change that local optical situation in different ways.
+This is the core operator map:
+Regime
+	Local change in the medium
+	Expected optical effect
+	Dissolution
+	the local readable condition weakens or becomes unstable
+	boundary readability weakens or disappears
+	Shear
+	neighboring local conditions become incompatible
+	optical behavior fragments across patches
+	Drift
+	the local condition remains but loses stable registration
+	path, phase, or alignment becomes unstable
+	Echo
+	local conditions recur without stable settlement
+	optical response repeats without becoming a stable new profile
+	Lock
+	local conditions become history-dependent
+	optical behavior depends on prior path
+	The table should be read as a map of local optical failure.
+Each regime changes the conditions under which the medium can carry light smoothly. The point is not that every regime produces a single visible sign. The point is that each regime changes a different part of the local fit relation.
+Dissolution weakens readability.
+Shear breaks compatibility.
+Drift breaks registration.
+Echo repeats without settling.
+Lock over-retains prior path.
+Those are not the same failure, so the optical profiles should not be the same.
+3.1 Dissolution: Weakened Readability
+Dissolution occurs when a distinction appears but cannot hold.
+In local admissibility terms, Dissolution means the medium no longer supplies a stable readable condition for light to track. The local best-fit condition, μ_b, may become weak, blurred, unstable, or difficult to define. The tolerance budget, τ_b, may also weaken because the region can no longer carry a sharp distinction.
+Plainly:
+the medium stops presenting a stable optical feature for the light-probe to read.
+The expected optical effect is loss of boundary readability. A boundary may become optically soft, faded, unstable, or hard to distinguish. Refractive contrast may weaken. Phase contrast may become less stable. The light-probe may no longer report a sharp interface because the fluid distinction itself is failing to remain held.
+Dissolution does not mean ordinary blur. It means optical unreadability that tracks an independently observed loss of fluid distinction.
+3.2 Shear: Incompatible Local Conditions
+Shear occurs when local hold fragments under load.
+In local admissibility terms, Shear means neighboring regions may each have their own local fit condition, but those local conditions no longer fit together. One patch may support one optical path or orientation. A neighboring patch may support another. The problem is not that all local structure disappears. The problem is that local structure no longer composes smoothly.
+Plainly:
+the medium still gives local rules, but neighboring rules do not agree.
+The expected optical effect is fragmented optical behavior. The light-probe may show patchy intensity, irregular scattering, speckle-like fragmentation, beam splitting, discontinuous path behavior, or abrupt local changes in direction.
+Shear does not mean generic scattering. It means optical fragmentation that tracks independently observed patch incompatibility in the fluid.
+3.3 Drift: Misregistered Local Condition
+Drift occurs when memory exists but alignment fails.
+In local admissibility terms, Drift means the medium may still present a local fit condition, μ_b, but that condition loses stable registration across time, position, or scale. The structure remains readable locally, but it does not stay lined up with itself or with its prior condition.
+Plainly:
+the medium still gives a readable condition, but that condition wanders.
+The expected optical effect is alignment instability. The light-probe may show beam displacement, phase drift, shifting gradient effects, slow wandering of optical features, or cumulative registration error.
+Drift does not mean motion alone. It means optical instability that tracks independently observed fluid misalignment after ordinary motion sources are considered.
+3.4 Echo: Recurrence Without Settlement
+Echo occurs when recurrence happens without durable settlement.
+In local admissibility terms, Echo means the medium presents similar local conditions repeatedly, but those conditions do not settle into a stable new state. The local fit relation returns or cycles, but it does not become a durable update.
+Plainly:
+the medium keeps presenting a similar optical condition, but it does not settle.
+The expected optical effect is recurrent optical response without stable optical settlement. The light-probe may show repeated intensity patterns, recurring phase disturbance, repeated beam displacement, recurring scattering profiles, or cyclic optical behavior that does not become a stable new profile.
+Echo does not mean ordinary oscillation alone. It means recurrence that does not produce a stable morphological or optical settlement.
+3.5 Lock: History-Dependent Local Condition
+Lock occurs when memory over-holds after update should occur.
+In local admissibility terms, Lock means the local condition depends on prior path. The same apparent current state may not present the same optical condition if the system arrived there through different histories.
+Plainly:
+the medium’s present optical behavior is still being governed by its past.
+The expected optical effect is optical memory or hysteresis. The light-probe may show delayed reset, persistent phase or intensity residue, residual beam displacement, different optical outputs under similar current conditions, or path-dependent relaxation.
+Lock does not mean slow relaxation alone. It means prior-path dependence that remains after ordinary delay, viscosity, diffusion, or surface-tension explanations have been considered.
+3.6 Operator Map Summary
+The five regimes can be summarized as five distinct local changes:
+Regime
+	What changes locally
+	Plain-language summary
+	Dissolution
+	readable condition weakens
+	the medium stops holding a readable distinction
+	Shear
+	neighboring fit conditions conflict
+	the medium breaks into incompatible local rules
+	Drift
+	fit condition loses registration
+	the medium remains readable but wanders
+	Echo
+	fit condition recurs without settlement
+	the medium repeats without stabilizing
+	Lock
+	fit condition depends on history
+	the medium keeps carrying its prior path
+	This is the technical center of the appendix.
+It gives the experiment a sharper claim than:
+different regimes look different.
+The stronger claim is:
+different regimes alter local optical admissibility in different ways, and those different alterations should produce distinguishable optical profiles.
+The next section states the confounds, discriminants, and falsifiers that keep these predictions from being mistaken for ordinary optical noise.
+4. Confounds, Discriminants, and Falsifiers
+The operator map only matters if it can survive ordinary explanations.
+A fluid system can blur, scatter, move, repeat, or relax slowly for many reasons. Those effects may have nothing to do with Structural Flow. A useful test must therefore ask, for each predicted profile:
+1. What ordinary effect could imitate it?
+2. What discriminant would separate the regime prediction from that ordinary effect?
+3. What result would count against the regime prediction?
+This section gives that control matrix.
+Regime
+	Predicted optical profile
+	Main confound
+	Discriminant
+	Falsifier
+	Dissolution
+	loss of boundary readability
+	blur, defocus, turbidity, poor contrast
+	optical loss tracks independent loss of interface retention
+	sharp, stable boundary optics persist
+	Shear
+	fragmented optical behavior
+	generic scattering, bubbles, particles, roughness
+	optical fragmentation tracks patch incompatibility
+	smooth single-path propagation persists
+	Drift
+	optical alignment instability
+	vibration, flow noise, apparatus drift, convection
+	optical drift tracks fluid misalignment after correction
+	corrected path or phase remains stable
+	Echo
+	recurrent optical response without stable settlement
+	ordinary oscillation, periodic forcing, surface waves
+	recurrence occurs without morphology settlement
+	recurrence is absent or rapidly stabilizes
+	Lock
+	optical memory or hysteresis
+	viscosity, slow relaxation, diffusion, surface tension
+	same current state differs by prior path
+	optical behavior resets immediately and reversibly
+	This table is the appendix’s main protection against overreading.
+The prediction is not meaningful if every ordinary optical disturbance can be renamed as a Structural Flow regime. The discriminant is what prevents that. Each regime must be tested not only against its predicted profile, but against the most likely ordinary explanation for that profile.
+4.1 Dissolution Confounds
+Dissolution predicts loss of boundary readability.
+The main confounds are blur, defocus, turbidity, weak lighting, camera resolution, contamination, and ordinary mixing. Any of these can make a boundary look less readable without showing a Structural Flow Dissolution regime.
+The discriminant is whether optical unreadability tracks independent loss of interface retention.
+If the fluid boundary itself fades, disperses, weakens, or fails to remain held before the target optical interpretation, then a loss of optical boundary readability becomes relevant to Dissolution. If the boundary remains physically stable but the image is blurry because the optics are poor, the Dissolution prediction is not supported.
+A clean Dissolution result would look like this:
+The fluid distinction weakens independently, and the optical boundary weakens with it.
+A weak or non-supportive result would look like this:
+The optical image blurs, but the fluid boundary remains structurally stable or the blur is explained by focus, turbidity, or imaging conditions.
+The falsifier is:
+a region classified as Dissolution continues to produce sharp, stable, repeatable boundary optics under adequate controls.
+4.2 Shear Confounds
+Shear predicts fragmented optical behavior.
+The main confounds are generic scattering, bubbles, particles, dust, surface roughness, suspended droplets, turbidity, vibration, and contamination. These can scatter or fragment light even when the fluid is not expressing Shear in the structural sense.
+The discriminant is whether optical fragmentation tracks independently observed patch incompatibility.
+If the fluid interface fragments into locally persistent but incompatible patches, and the optical output fragments in correspondence with those patches, Shear becomes a stronger interpretation. If speckle or scattering appears without correspondence to fluid patch structure, the result may be ordinary scattering rather than Shear.
+A clean Shear result would look like this:
+The fluid shows patch incompatibility first, and the light-probe fragments in a way that follows those patches.
+A weak or non-supportive result would look like this:
+Speckle appears, but it does not correspond to fluid structure and is better explained by bubbles, particles, or turbidity.
+The falsifier is:
+a region classified as Shear produces smooth, single-path optical propagation under adequate controls.
+4.3 Drift Confounds
+Drift predicts optical alignment instability.
+The main confounds are vibration, flow noise, apparatus drift, convection, temperature gradients, mechanical instability, and external disturbance. These can move a beam or change phase without showing structural Drift in the fluid.
+The discriminant is whether optical drift tracks independently observed fluid misalignment after correction for ordinary motion.
+If a boundary, gradient, or pattern remains present but loses registration, and the optical output shows corresponding alignment instability after apparatus motion has been considered, Drift becomes a stronger interpretation. If beam motion disappears after vibration correction, or if it does not correspond to fluid misalignment, Drift is not supported.
+A clean Drift result would look like this:
+The fluid retains structure while losing registration, and the optical path or phase becomes unstable in the same registered direction or time pattern.
+A weak or non-supportive result would look like this:
+The beam moves, but the movement is explained by vibration, convection, or setup instability.
+The falsifier is:
+a region classified as Drift shows stable corrected path and phase behavior under adequate controls.
+4.4 Echo Confounds
+Echo predicts recurrent optical response without stable settlement.
+The main confounds are ordinary oscillation, mechanical vibration, periodic forcing, surface waves, pump rhythm, thermal cycling, or repeated external disturbance. These can produce recurrence without showing Echo in the structural sense.
+The discriminant is whether recurrence occurs without morphology settlement.
+If the fluid repeatedly returns to similar forms without settling into a stable new structure, and the optical output also recurs without becoming a stable new optical profile, Echo becomes a stronger interpretation. If recurrence is simply driven by an external periodic force, or if the repeated behavior quickly stabilizes into a new state, Echo is not supported.
+A clean Echo result would look like this:
+The fluid repeatedly presents similar structural conditions without durable settlement, and the optical response repeats without becoming a stable new profile.
+A weak or non-supportive result would look like this:
+The optical response repeats because the apparatus or environment is periodically forcing it.
+The falsifier is:
+recurrence is absent, or repeated optical behavior rapidly stabilizes into a durable new state.
+4.5 Lock Confounds
+Lock predicts optical memory or hysteresis.
+The main confounds are viscosity, slow relaxation, diffusion, surface tension, surfactants, container effects, temperature, and ordinary fluid inertia. These can delay reset or produce slow return without showing Lock in the structural sense.
+The discriminant is whether the same current state differs by prior path.
+If two regions appear similar now but produce different optical outputs because they arrived there through different histories, Lock becomes a stronger interpretation. If the only observed effect is slow relaxation, and ordinary viscosity or diffusion explains it, Lock is not supported.
+A clean Lock result would look like this:
+Similar current fluid states produce different optical outputs because their prior paths differ.
+A weak or non-supportive result would look like this:
+The optical response returns slowly, but the delay is explained by viscosity and no prior-path difference is demonstrated.
+The falsifier is:
+optical behavior resets immediately and reversibly once current conditions are restored.
+5. Distinguishability Standard
+The experiment predicts distinguishable optical profiles. That does not mean every early test must produce final numerical thresholds.
+At first-pass scope, distinguishability means:
+the profile differs from baseline and ordinary confounds in the predicted direction, across more than one relevant feature, after independent regime classification.
+This is a modest standard, but it is not empty.
+A single signal is not enough. A dramatic image is not enough. A post hoc interpretation is not enough.
+A stronger result should show three things:
+1. the fluid region was classified before the target optical interpretation;
+2. the optical profile was predicted before evaluation;
+3. the measured features fit the predicted profile better than ordinary confounds explain.
+For example, a Shear-classified region would be more supportive if patch fragmentation in the fluid corresponds to patchy intensity, irregular scattering, elevated speckle contrast, or path fragmentation. It would be less supportive if the only result is generic speckle that could be explained by bubbles or particles.
+A Lock-classified region would be more supportive if two similar current states produce different optical outputs because they arrived through different histories. It would be less supportive if the only result is slow relaxation that viscosity already explains.
+At first-pass scope, the result categories can be read this way:
+Result category
+	Meaning
+	strong support
+	independently classified region produces a pre-stated, multi-feature optical profile; the discriminant holds; ordinary confounds do not explain it better
+	partial support
+	one or more predicted features appear, but the full profile is incomplete or the discriminant is only partly satisfied
+	ambiguous
+	classification, measurement, scale, baseline, or confound control is too weak to decide
+	weakening result
+	the predicted profile does not appear, or ordinary confounds explain the result better
+	falsifying pressure
+	repeated controlled trials fail to distinguish the predicted regime-profile families
+	Later experimental work should move toward repeated trials and, where sample size permits, statistically separable distributions across relevant variables. That is not required for the proposal to be intelligible, but it is the direction a mature test should move.
+For now, the minimum standard is:
+a pre-classified region should produce a pre-stated, multi-feature optical profile in ordinary optical variables that tracks the regime-specific discriminant better than ordinary confounds do.
+The next section gives regime-by-regime technical notes that apply this matrix in more detail.
+6. Regime-by-Regime Technical Notes
+The operator map and confound matrix can now be read regime by regime.
+Each note follows the same pattern:
+1. what changes locally;
+2. what optical profile is expected;
+3. what ordinary confound is most dangerous;
+4. what discriminant matters most;
+5. what would count against the prediction.
+The purpose is not to make the appendix more complicated. The purpose is to make the prediction harder to misread.
+6.1 Dissolution Technical Note
+Dissolution occurs when a distinction appears but cannot hold.
+In the local admissibility relation:
+κ_b · χ(γ, μ_b) ≤ τ_b
+Dissolution pressures the readability of the local condition itself.
+The medium no longer presents a stable μ_b for the light-probe to track. A boundary, gradient, or contrast may begin to appear, but it cannot remain held strongly enough to function as a stable local best-fit condition. The tolerance budget, τ_b, may also weaken because the region can no longer carry a sharp distinction.
+Plainly:
+the medium stops holding a readable optical distinction.
+The expected optical profile is loss of boundary readability.
+Possible signs include:
+* softened boundary contrast;
+* fading edge definition;
+* weakened refractive transition;
+* reduced phase contrast;
+* optical homogenization;
+* unstable or disappearing interface features.
+The main confounds are blur, defocus, turbidity, poor lighting, contamination, ordinary mixing, and camera resolution. These can all make a boundary look weak without showing Dissolution.
+The discriminant is independent loss of interface retention.
+Dissolution is supported only if the optical loss tracks a fluid distinction that is itself failing to remain held. If the fluid boundary remains structurally stable but the image is blurred by the apparatus, the Dissolution prediction is not supported.
+A strong Dissolution result would say:
+the fluid distinction weakened first, and the optical boundary weakened with it.
+The prediction is weakened if a Dissolution-classified region continues to produce sharp, stable, repeatable boundary optics under adequate controls.
+6.2 Shear Technical Note
+Shear occurs when local hold fragments under load.
+In the local admissibility relation, Shear pressures compatibility among neighboring local conditions.
+Each local patch may still present its own μ_b, κ_b, and τ_b. The problem is that neighboring patches no longer compose smoothly. One patch may support one optical behavior. Another may support a different one. The local rules remain, but they conflict.
+Plainly:
+the medium still has local optical rules, but adjacent rules no longer agree.
+The expected optical profile is fragmented optical behavior.
+Possible signs include:
+* patchy intensity;
+* irregular scattering;
+* speckle-like fragmentation;
+* beam splitting;
+* discontinuous path behavior;
+* abrupt local changes in refractive direction;
+* optical fragmentation that follows interface patches.
+The main confounds are generic scattering, bubbles, dust, suspended particles, surface roughness, turbidity, vibration, and contamination. These can scatter or fragment light without any Structural Flow Shear classification.
+The discriminant is patch-tracked fragmentation.
+Shear is supported only if the optical fragmentation tracks independently observed patch incompatibility in the fluid. Speckle alone is not enough. Scattering alone is not enough. The fragmentation must correspond to a structural incompatibility observed before optical interpretation.
+A strong Shear result would say:
+the fluid fragmented into incompatible local patches first, and the light-probe fragmented in correspondence with those patches.
+The prediction is weakened if a Shear-classified region produces smooth, single-path optical propagation under adequate controls.
+6.3 Drift Technical Note
+Drift occurs when memory exists but alignment fails.
+In the local admissibility relation, Drift pressures registration.
+The local condition, μ_b, may remain readable, but it does not stay stably aligned across time, position, scale, or prior state. The medium still gives a fit condition, but that condition wanders or misregisters.
+Plainly:
+the medium remains readable, but it does not stay lined up.
+The expected optical profile is alignment instability.
+Possible signs include:
+* beam displacement over time;
+* phase drift;
+* shifting gradient effects;
+* slow wandering of optical features;
+* cumulative registration error;
+* changing alignment of a boundary-related optical feature.
+The main confounds are vibration, flow noise, apparatus drift, convection, thermal gradients, mechanical instability, and external disturbance. These can move beams, shift phase, or alter alignment without showing Drift in the fluid.
+The discriminant is corrected correspondence with fluid misalignment.
+Drift is supported only if the optical instability tracks independently observed fluid misregistration after ordinary motion sources are considered. If the beam movement disappears after correcting for vibration, or if it has no relation to fluid misalignment, the Drift prediction is not supported.
+A strong Drift result would say:
+the fluid retained structure while losing registration, and the optical path or phase became unstable in the same time-pattern or spatial direction.
+The prediction is weakened if a Drift-classified region shows stable corrected path and phase behavior under adequate controls.
+6.4 Echo Technical Note
+Echo occurs when recurrence happens without durable settlement.
+In the local admissibility relation, Echo pressures recurrence without update.
+The medium may present similar μ_b, κ_b, or τ_b conditions repeatedly. The local condition returns or cycles, but it does not become a stable new condition. The pattern comes back without becoming a durable structural settlement.
+Plainly:
+the medium repeats a local condition without stabilizing into a new one.
+The expected optical profile is recurrent optical response without stable settlement.
+Possible signs include:
+* repeated intensity patterns;
+* recurring phase disturbances;
+* repeated beam displacement;
+* recurring scattering profiles;
+* cyclic contrast changes;
+* optical behavior that returns without becoming a stable new profile.
+The main confounds are ordinary oscillation, mechanical vibration, surface waves, pump rhythm, periodic forcing, thermal cycling, and repeated external disturbance. These can produce recurrence without any Echo regime.
+The discriminant is recurrence without morphology settlement.
+Echo is supported only if recurrence appears in both the fluid and the optical response without becoming a stable new morphology or stable new optical profile. If recurrence is just externally forced, or if it rapidly settles into a durable new state, the Echo prediction is not supported.
+A strong Echo result would say:
+the fluid returned to similar structural conditions without durable settlement, and the optical response repeated without becoming a stable new profile.
+The prediction is weakened if recurrence is absent, or if repeated optical behavior rapidly stabilizes into a durable new state.
+6.5 Lock Technical Note
+Lock occurs when memory over-holds after update should occur.
+In the local admissibility relation, Lock pressures history-dependence.
+The local condition does not depend only on the present state. It depends on the path by which the region arrived there. Two regions may look similar now, but if they have different histories, they may present different optical conditions.
+Plainly:
+the medium’s present optical behavior is still being governed by its past.
+The expected optical profile is optical memory or hysteresis.
+Possible signs include:
+* delayed reset;
+* persistent beam displacement;
+* residual phase pattern;
+* residual intensity pattern;
+* optical hysteresis;
+* different optical outputs under similar current conditions;
+* path-dependent relaxation.
+The main confounds are viscosity, slow relaxation, diffusion, surface tension, surfactants, container effects, temperature, and ordinary fluid inertia. These can delay reset or slow return without showing Lock.
+The discriminant is same-current-state / different-prior-path comparison.
+Lock is supported only if similar current states differ optically because they arrived through different histories. Slow relaxation alone is not enough. Delay alone is not enough. The test must show prior-path dependence.
+A strong Lock result would say:
+two similar present fluid states produced different optical outputs because their prior paths differed.
+The prediction is weakened if optical behavior resets immediately and reversibly once current conditions are restored.
+6.6 Technical Note Summary
+The five technical notes can be compressed this way:
+Regime
+	Local admissibility pressure
+	Strongest discriminant
+	Dissolution
+	the readable condition weakens
+	optical loss tracks independent interface loss
+	Shear
+	neighboring local conditions conflict
+	fragmentation tracks patch incompatibility
+	Drift
+	readable condition loses registration
+	optical instability tracks corrected fluid misalignment
+	Echo
+	local condition recurs without settlement
+	recurrence occurs without morphology settlement
+	Lock
+	local condition depends on history
+	same current state differs by prior path
+	This is the main technical claim of the appendix:
+each regime changes local optical admissibility differently, so each should be tested through a different profile, confound, discriminant, and falsifier.
+The next section gives a short effective-geometry crosswalk for readers who want the GR-adjacent translation, while keeping that support layer subordinate to the experiment.
+7. Effective-Geometry Crosswalk
+The experiment does not require General Relativity.
+The main claim can stand without GR language:
+independently classified fluid regimes should produce distinguishable optical profile families.
+Still, some readers may find it useful to describe the light-probe in effective-geometry terms.
+In optics, a structured medium can sometimes be treated as presenting an effective geometry for light. That does not mean the fluid literally curves spacetime. It means the medium shapes which optical paths, wavefronts, phases, or intensity profiles are locally supported.
+In plain language:
+the medium gives light a local optical landscape.
+The light-probe then tests how that landscape changes under each failure regime.
+A compact effective-geometry expression is:
+g_eff(μν) k^μ k^ν = 0
+Here, g_eff(μν) represents the effective optical geometry supplied by the medium, and k^μ represents the optical path or wave-vector role.
+Where a geometric-optics approximation is appropriate, one may also write:
+k^ν ∇^eff_ν k^μ = 0
+This means, roughly:
+the light continues according to the effective optical conditions supplied by the medium.
+These expressions are not the source of the prediction. They are a translation aid.
+The source prediction remains:
+each failure regime alters local optical admissibility differently.
+7.1 What Effective Geometry Means Here
+Effective geometry means the medium can be modeled as shaping the possible continuation of light.
+The medium may shape optical behavior through:
+* refractive-index structure;
+* refractive-index gradients;
+* interface orientation;
+* boundary contrast;
+* local anisotropy;
+* scattering structure;
+* phase delay;
+* recurrence;
+* memory;
+* path-dependence.
+The light-probe does not pass through a neutral empty background. It passes through a structured fluid system. The effective-geometry view treats that structure as a local condition for optical behavior.
+This appendix uses that idea cautiously.
+It does not claim:
+* the fluid literally curves spacetime;
+* the experiment is a gravitational experiment;
+* full GR optics is being derived;
+* photon theory is being closed;
+* Maxwell’s equations are being derived;
+* QED is being derived;
+* a complete optical metric is supplied;
+* numerical thresholds are known.
+The effective-geometry crosswalk only says:
+if the medium can be represented as shaping optical continuation, then each failure regime should correspond to a different effective optical geometry profile.
+7.2 Crosswalk Table
+Regime
+	Local admissibility pressure
+	Effective-geometry expression
+	Optical meaning
+	Dissolution
+	readable condition weakens
+	boundary or gradient feature fades
+	the medium stops supplying a stable optical distinction
+	Shear
+	neighboring local conditions conflict
+	effective geometry becomes patchwise or discontinuous
+	local optical landscapes do not fit together smoothly
+	Drift
+	readable condition loses registration
+	effective geometry remains present but misaligns over time, position, or scale
+	the optical landscape is still there, but it wanders
+	Echo
+	local condition recurs without settlement
+	effective geometry recurs without stable update
+	the optical landscape repeats without becoming a settled new profile
+	Lock
+	local condition depends on history
+	effective geometry becomes history-dependent
+	the present optical landscape still carries prior path
+	This table is a translation layer.
+It should not replace the operator map, the confound matrix, or the classification rule.
+7.3 Dissolution in Effective-Geometry Terms
+Dissolution means the medium no longer supplies a stable optical distinction.
+In effective-geometry language, the boundary or gradient feature fades. The region stops presenting a clear optical landscape for a boundary-sensitive light-probe to read.
+The expected optical behavior is loss of boundary readability: softened contrast, weakened edge definition, reduced phase contrast, or optical homogenization.
+Plainly:
+the optical landscape loses the feature that would have guided a stable boundary-reading response.
+Dissolution is therefore not patchwise conflict or path-dependence. It is loss of readable distinction.
+7.4 Shear in Effective-Geometry Terms
+Shear means neighboring local conditions no longer fit together.
+In effective-geometry language, the medium becomes patchwise or discontinuous. Each local region may present an optical landscape, but adjacent landscapes do not assemble into one smooth condition.
+The expected optical behavior is fragmentation: patchy intensity, irregular scattering, speckle-like structure, beam splitting, or abrupt local path changes.
+Plainly:
+the light-probe meets neighboring optical landscapes that disagree.
+Shear is therefore not simple blur. It is local incompatibility.
+7.5 Drift in Effective-Geometry Terms
+Drift means a readable condition remains, but loses registration.
+In effective-geometry language, the optical landscape remains present but wanders, slides, or misaligns over time, position, or scale.
+The expected optical behavior is alignment instability: beam displacement, phase drift, shifting gradient effects, or cumulative registration error.
+Plainly:
+the optical landscape is still readable, but it does not stay lined up.
+Drift is therefore not motion alone. It is misregistration of retained structure.
+7.6 Echo in Effective-Geometry Terms
+Echo means recurrence without durable settlement.
+In effective-geometry language, the medium presents similar optical landscapes repeatedly, but those landscapes do not become a stable new condition.
+The expected optical behavior is recurrent response without stable settlement: repeated intensity patterns, recurring phase disturbance, recurring beam displacement, or cyclic scattering that does not stabilize.
+Plainly:
+the optical landscape keeps returning, but it does not become a new settled landscape.
+Echo is therefore not ordinary oscillation alone. It is recurrence without durable update.
+7.7 Lock in Effective-Geometry Terms
+Lock means prior path continues to govern present behavior.
+In effective-geometry language, the optical landscape becomes history-dependent. The current medium does not fully determine the optical condition unless the prior path is also known.
+The expected optical behavior is memory or hysteresis: delayed reset, residual phase or intensity, persistent beam displacement, or different optical outputs under similar current conditions reached through different histories.
+Plainly:
+the light-probe is reading not only the present medium, but retained consequences of how the medium got there.
+Lock is therefore not slow relaxation alone. It is present behavior governed by prior path.
+7.8 Why This Crosswalk Is Useful
+The effective-geometry crosswalk is useful because it gives a familiar bridge for readers who think in terms of optical paths, wavefronts, and geometry-like constraints.
+It also helps separate the five regimes.
+Dissolution weakens the effective optical landscape.
+Shear breaks it into incompatible patches.
+Drift misaligns it.
+Echo repeats it without settlement.
+Lock makes it history-dependent.
+These are different effective-geometry profiles, just as they are different local admissibility failures.
+7.9 Why This Crosswalk Must Stay Subordinate
+This crosswalk is not the experiment.
+It is not the source of the prediction.
+It does not prove the five regimes.
+It does not replace the measurement variables.
+It does not remove the need for independent classification, baselines, confounds, discriminants, or falsifiers.
+The experiment still lives or dies by the same sequence:
+classify the fluid first, state the optical prediction, measure ordinary variables, test confounds, apply discriminants, and report whether the profile appears.
+The effective-geometry language is useful only if it helps readers understand the predicted optical profiles more clearly.
+If it creates confusion or overclaiming, it should be moved to a companion technical note or removed from the main experimental discussion.
+The next section closes the appendix by stating its proper use, misuse risks, and non-claims.
+8. Use, Misuse, and Non-Claims
+This appendix is a support layer for the proposed light-probe experiment.
+Its purpose is to make the five predicted optical profiles sharper than description. It explains why Dissolution, Shear, Drift, Echo, and Lock should not be treated as five names for the same general disturbance. Each regime is expected to change local optical admissibility in a different way.
+The appendix should be used to ask:
+* What local condition changed?
+* What optical profile should follow?
+* What ordinary explanation could imitate that profile?
+* What discriminant would separate the prediction from the confound?
+* What would count against the prediction?
+That is its proper use.
+It should not be used to claim more than the experiment has earned.
+8.1 Proper Use
+The appendix may be used in four main ways.
+First, it may guide experimental planning. A researcher can use the regime operator map to decide which optical variables matter most for each classification. A Shear test should look for fragmentation that tracks patch incompatibility. A Lock test should include prior-path comparison. A Drift test should include correction for apparatus motion.
+Second, it may guide result interpretation. The appendix helps distinguish a supportive profile from an ordinary lookalike. Speckle is not automatically Shear. Slow return is not automatically Lock. Beam motion is not automatically Drift.
+Third, it may guide falsification. Each regime has a way to lose. Dissolution weakens if sharp boundary optics persist. Shear weakens if smooth single-path propagation persists. Drift weakens if corrected path and phase remain stable. Echo weakens if recurrence is absent or rapidly stabilizes. Lock weakens if optical behavior resets immediately and reversibly.
+Fourth, it may guide future refinement. If the first tests are ambiguous, the appendix helps identify where the ambiguity lives: classification, optical variable selection, baseline control, confound control, scale mismatch, mixed regimes, or the regime-profile relation itself.
+The appendix is most useful when it slows interpretation down.
+That is the point.
+8.2 Misuse Risks
+The appendix should not be used as a license to rename ordinary optical effects.
+The following uses would be mistakes.
+Misuse
+	Why it fails
+	Calling blur “Dissolution” without independent interface loss
+	blur may come from focus, turbidity, lighting, or imaging conditions
+	Calling speckle “Shear” without patch incompatibility
+	speckle may come from bubbles, particles, roughness, or generic scattering
+	Calling beam motion “Drift” without corrected fluid misalignment
+	motion may come from vibration, convection, or apparatus drift
+	Calling oscillation “Echo” without recurrence lacking settlement
+	oscillation may be externally forced or mechanically driven
+	Calling slow relaxation “Lock” without prior-path dependence
+	viscosity, diffusion, and surface tension may explain delay
+	Treating one optical sign as a full profile
+	the prediction is profile-based, not single-signal based
+	Reclassifying the region after seeing the optical output
+	that collapses the test into post hoc interpretation
+	Ignoring ordinary confounds
+	that makes the test too easy to confirm
+	Treating ambiguous results as support
+	that weakens the falsifiability of the proposal
+	The most important misuse is circular classification.
+If the optical output is used to assign the regime, the experiment has not tested the prediction. It has only renamed what it saw.
+The correct order remains:
+classify the fluid first; predict the optical profile; then test with light.
+8.3 What the Appendix Does Not Claim
+This appendix does not claim completed laboratory confirmation.
+It does not claim that the five optical profiles have already been observed in controlled experiments.
+It does not claim that every immiscible-fluid system will express one clean regime.
+It does not claim that mixed or transitional regions are failures of the framework.
+It does not claim numerical thresholds.
+It does not claim exact coefficients.
+It does not claim a complete optical metric.
+It does not derive photon theory.
+It does not derive Maxwell’s equations.
+It does not derive quantum electrodynamics.
+It does not derive full wave optics.
+It does not derive full General Relativity.
+It does not replace fluid mechanics.
+It does not replace classical optics.
+It does not allow optical data alone to classify the regime.
+It claims only this:
+the five Structural Flow failure regimes can be stated as distinct local changes in optical admissibility, and those changes generate testable expectations, confounds, discriminants, and falsifiers for light-probe experiments.
+That is enough for this appendix.
+8.4 Relationship to the Main Experiment
+The main experiment artifact asks whether independently classified immiscible-fluid regimes produce distinguishable optical profile families.
+This appendix supports that question by giving the technical grammar underneath the profiles.
+The relationship is:
+Main experiment
+	This appendix
+	states the prediction
+	sharpens the local mechanism of the prediction
+	defines the classification order
+	explains what each classification predicts locally
+	gives measurement variables
+	links variables to local admissibility changes
+	names confounds
+	organizes confounds, discriminants, and falsifiers
+	proposes a test
+	makes the test harder to overread
+	The appendix should not swallow the experiment.
+The main experiment must remain readable on its own. A reader should be able to understand the proposed test without accepting every support layer in this appendix.
+The appendix exists for readers who ask:
+Why should these five profiles be different?
+Its answer is:
+because each regime changes the local conditions of optical admissibility differently.
+8.5 Relationship to Effective-Geometry Language
+Effective-geometry language may help some readers understand the optical behavior. It may be useful to say that the medium presents an effective optical landscape, and that each regime alters that landscape differently.
+But that language is optional.
+The experiment does not depend on proving full effective geometry. It depends on classification, prediction, measurement, confound control, and falsification.
+If effective-geometry language clarifies the profiles, use it.
+If it causes readers to think the artifact claims literal spacetime curvature, full GR optics, or photon closure, move it to a companion technical note or remove it from the main presentation.
+The support layer must stay subordinate to the test.
+8.6 Closing Compression
+The appendix can be compressed into one statement:
+Dissolution weakens readability; Shear fragments compatibility; Drift misaligns registration; Echo repeats without settlement; Lock over-retains history.
+Those five local changes should not produce the same optical profile.
+That is the technical claim.
+The scientific burden remains practical:
+1. classify the fluid independently;
+2. state the predicted optical profile;
+3. measure ordinary optical variables;
+4. test confounds;
+5. apply discriminants;
+6. report whether the profile appears.
+If the profiles appear as predicted, the regime-profile relation gains support.
+If they do not, the relation must be weakened, narrowed, repaired, or rejected.
+This appendix does not protect the proposal from failure.
+It makes the failure conditions clearer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Declaration of Generative AI and AI-Assisted Technologies
+During the preparation and revision of this manuscript, the author used generative AI tools to assist with drafting support, language refinement, structural editing, technical organization, title development, and clarity. All substantive arguments, theoretical claims, scope decisions, technical framing, and final editorial judgments are the author’s own. The author reviewed and approved the final manuscript and takes full responsibility for its content.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Regime Operator and Confound-Control Matrix for Light-Probe Experiments
+
+
+A Technical Appendix to Optical Signatures of Structural Failure Regimes in Immiscible Fluids
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Signed,
+
+
+
+
+Rick
